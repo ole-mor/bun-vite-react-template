@@ -10,7 +10,7 @@
 }
 
 @layer utilities {
-  .font-modak { /* Use Tailwind's convention */
+  .font-modak {
     font-family: 'Modak', cursive;
   }
 }

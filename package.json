@@ -1,11 +1,11 @@
 {
-  "name": "smaagodtposen",
+  "name": "bun-vite-react-template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev:frontend": "vite",
-    "dev:backend": "bun run server.ts",
+    "dev:backend": "go run main.go",
     "dev": "concurrently \"bun run dev:frontend\" \"bun run dev:backend\"",
     "build": "vite build",
     "lint": "eslint .",
@@ -23,8 +23,7 @@
     "motion": "^12.9.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.5.1",
-    "three": "^0.176.0"
+    "react-router-dom": "^7.5.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
