@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Modak&display=swap');
+@import "tailwindcss";
+
+
+@custom-variant hover (&:hover);
+@tailwind utilities;
+
+:root {
+  font-family: 'Assistant' ,system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+@layer utilities {
+  .font-modak { /* Use Tailwind's convention */
+    font-family: 'Modak', cursive;
+  }
+}

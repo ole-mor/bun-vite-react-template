@@ -1,0 +1,45 @@
+{
+  "name": "smaagodtposen",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:frontend": "vite",
+    "dev:backend": "bun run server.ts",
+    "dev": "concurrently \"bun run dev:frontend\" \"bun run dev:backend\"",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "tailwind:init": "tailwindcss init -p"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.0.7",
+    "@react-three/fiber": "^9.1.2",
+    "@tailwindcss/vite": "^4.1.4",
+    "@types/three": "^0.176.0",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.1",
+    "firebase-admin": "^13.3.0",
+    "motion": "^12.9.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.5.1",
+    "three": "^0.176.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/bun": "^1.2.11",
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^8.2.2",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.26.1",
+    "vite": "^6.3.4"
+  }
+}
