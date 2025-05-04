@@ -38,7 +38,6 @@ function App() {
     prevDepth = 1;
   }
 
-  console.log(currentDepth, prevDepth)
   if (currentDepth < prevDepth) {
       direction = -1;
   }
