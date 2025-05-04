@@ -5,6 +5,7 @@ This is a tempate for creating a web application using bun as the runtime and pa
 The template has libraries like React-Router-Dom with a proposed implementation structure and tailwindcss implementations.
 
 Run app
-`code
+
+```
 bun run dev
-`
+```
